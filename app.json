@@ -20,7 +20,7 @@
             "description":"Chat identifier of the sudo user. For multiple users use space as seperator"
             "reuqired":"True",
             "value":"@MissRose_bot"
-            },
+        },
         "API_HASH": {
             "description": "Get it by creating an app on\u00a0https",
             "required": "True",
