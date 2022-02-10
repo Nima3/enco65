@@ -43,3 +43,5 @@ bash run.sh
 ### Copyright & License
 - Copyright &copy; 2021 &mdash; [WeebTime](https://github.com/WeebTime)
 - Licensed under the terms of the [GNU AFFERO GENERAL PUBLIC LICENSE](./LICENSE)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nima3/enco65)</br>
