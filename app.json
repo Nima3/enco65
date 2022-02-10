@@ -7,6 +7,7 @@
         "Best",
         "encode"
     ],
+    "website": "https://github.com/Nima3/enco65",
     "repository": "https://github.com/Nima3/enco65",
     "success_url": "https://t.me/dingmovie",
     "env": {
