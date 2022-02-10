@@ -1,0 +1,41 @@
+{
+    "name": "VideoEncoderBot",
+    "logo": "https://telegra.ph//file/68b4d0d8410885745bded.jpg",
+    "description": "Video-Encoder-Bot",
+    "keywords": [
+        "Video",
+        "Best",
+        "encode"
+    ],
+    "repository": "https://github.com/Nima3/enco65",
+    "success_url": "https://t.me/dingmovie",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Get it by creating a bot on https",
+            "required": "True",
+            "value": "//t.me/BotFather"
+        },
+        "API_HASH": {
+            "description": "Get it by creating an app on\u00a0https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        },
+        "API_ID": {
+            "description": "Get it by creating an app on https",
+            "required": "True",
+            "value": "//my.telegram.org"
+        }
+    },
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
